@@ -1,0 +1,22 @@
+.layoutFooter {
+    height: 3vh;
+    width: 100%;
+    border-top: 1px solid var(--ligth-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 70%;
+}
+
+.systemDetails {
+    margin-left: 2%;
+}
+
+.browserDetails {
+    margin-right: 2%;
+}
+
+.info {
+    color: var(--ligth-grey);
+    font-weight: 500;
+}

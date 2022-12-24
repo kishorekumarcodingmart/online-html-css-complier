@@ -1,0 +1,40 @@
+.layoutNavbar {
+    height: 6vh;
+    width: 100%;
+    border-bottom: 1px solid var(--ligth-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectInfo{
+    margin-left: 2%;
+}
+
+.fileName {
+    font-weight: 400;
+}
+
+.createAt {
+    font-size: 70%;
+    font-weight: 700;
+    color: var(--ligth-grey);
+}
+
+.otherOption{
+    margin-right: 2%;
+}
+
+.saveBtn {
+    background-color: var(--ligth-grey);
+    color: var(--white);
+    padding: 15%;
+    font-weight: 600;
+    border: 1px solid var(--ligth-grey);
+    border-radius: 10%;
+}
+
+.saveBtn:hover {
+    cursor: pointer;
+    background-color: var(--light-black);
+}

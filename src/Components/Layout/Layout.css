@@ -1,0 +1,15 @@
+.layoutWrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.layoutSection {
+    height: 91vh;
+    width: 100%;
+    display: flex;
+}
+
+.output{
+    flex: 50%;
+    background-color: white;
+}
