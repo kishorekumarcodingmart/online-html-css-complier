@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 
 export function useCurrentCode(){
     let currentLanguage = useSelector((state)=>state.language.value)
-    let currentCodeObject = useSelector((state)=> state.code.value)
+    let currentCodeObject = useSelector((state)=> state.code)
 
     if (currentLanguage === "html"){
         return currentCodeObject.html
